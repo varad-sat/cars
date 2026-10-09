@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0b0d11;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-tech {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom automotive subtle carbon pattern */
+.carbon-grid {
+  background-image: radial-gradient(rgba(239, 68, 68, 0.08) 1px, transparent 1px), radial-gradient(rgba(255, 255, 255, 0.03) 1px, #0b0d11 1px);
+  background-size: 32px 32px, 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+
+.mesh-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(220, 38, 38, 0.15) 0%, rgba(11, 13, 17, 0) 70%);
+}
+
+/* Racing line accent */
+.racing-stripe {
+  background: linear-gradient(90deg, #dc2626 0%, #ef4444 35%, #991b1b 70%, transparent 100%);
+}

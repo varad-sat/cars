@@ -1,0 +1,6 @@
+{
+  "name": "Apex Journal - Modern Car Culture & Automotive Trends",
+  "description": "High-performance automotive journal covering 2026 supercar revolutions, EV tech, maintenance guides, vehicle reports, and driving culture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
